@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fim...</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.8;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .message-container {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .heart {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen">
+
+    <audio autoplay loop>
+        <source src="Zé Neto e Cristiano - Se Cuida (DVD Ao vivo em São José do Rio Preto) (1).mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Hero Section -->
+    <div class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 parallax-bg" style="background-image: url('2.jpg');"></div>
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="playfair text-5xl md:text-6xl text-white font-bold mb-6">Será um adeus?</h1>
+            <div class="flex justify-center">
+                <svg class="heart w-12 h-12 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+            <a href="#message" class="text-white animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- Message Section -->
+    <section id="message" class="py-20 px-4">
+        <div class="max-w-3xl mx-auto message-container rounded-lg p-8 md:p-12">
+            <div class="text-center mb-12">
+                <h2 class="playfair text-3xl md:text-4xl font-semibold text-gray-800 mb-4">Fim...</h2>
+                <div class="w-20 h-1 bg-red-400 mx-auto"></div>
+            </div>
+            
+            <div class="prose max-w-none text-gray-700">
+                <p class="text-xl mb-8">Eu pensei mil vezes antes de escrever isso. Apaguei, reescrevi… mas a verdade é que não tem como fingir que tá tudo bem. Não tá. Desde que você foi embora, tem um vazio em mim que nada preenche.</p>
+                
+                <p class="mb-8">Eu não tô escrevendo pra te convencer a voltar, nem pra te cobrar nada. Tô escrevendo porque o que eu sinto não cabe mais só aqui dentro. Tá pesado. Tá doendo.</p>
+                
+                <div class="flex justify-center my-12">
+                    <img src="1.jpg" alt="Silhueta de um casal abraçado observando o pôr do sol na praia" class="rounded-lg shadow-lg">
+                </div>
+                
+                <p class="mb-8">E você sempre foi a única pessoa com quem eu conseguia ser 100% eu mesmo, sem medo, sem filtro. E é por isso que eu tô aqui, abrindo meu peito mais uma vez.</p>
+                
+                <p class="mb-8">Eu ainda te amo. E isso não é frase feita, é amor de verdade, aquele que fica mesmo quando tudo desmorona.
+                Eu penso em você em tudo. Em música, em filme, em cheiro, em silêncio.
+                Sinto falta até das nossas brigas, porque até elas eram uma forma de te ter por perto.</p>
+                
+                <div class="bg-red-50 border-l-4 border-red-400 p-6 my-8">
+                    <p class="playfair text-2xl italic text-red-700">"A verdade é que… por mais que a gente tenha se machucado, você foi o melhor pedaço da minha vida."</p>
+                </div>
+                
+                <p class="mb-8">Talvez eu tenha falhado em te mostrar o quanto você era importante. Talvez eu não tenha sido a versão que você merecia de mim.
+                Mas juro por tudo: fui sincero em cada gesto, em cada olhar, em cada palavra. Eu tentei. Do meu jeito, com todos os meus defeitos… mas eu tentei.</p>
+                
+                <p class="mb-8">E dói pensar que, mesmo tentando, eu perdi você.</p>
+                
+                <p class="mb-8">Você não era só alguém que eu amava. Você era meu refúgio. Meu lugar seguro.
+                E agora eu me sinto perdido… tentando encontrar alguma paz onde tudo virou saudade.</p>
+                
+                <div class="flex justify-center my-12">
+                    <img src="3.jpg" alt="Banco vazio em um parque ao entardecer, com árvores ao fundo" class="rounded-lg shadow-lg">
+                </div>
+                
+                <p class="mb-8">Não sei se um dia você vai pensar em mim com o mesmo carinho que eu penso em você.
+                Não sei se vai sentir falta das pequenas coisas, como eu sinto.
+                Só sei que você marcou a minha vida de um jeito que ninguém mais vai conseguir.</p>
+                
+                <p class="mb-8">Se algum dia, mesmo que só por um instante, você lembrar de mim…
+                Espero que sinta que foi verdadeiro. Que teve amor. Que teve entrega.
+                E que, mesmo machucado, esse amor ainda vive aqui dentro de mim.</p>
+                
+                <p class="mb-8">E quando pensar em mim, que venha aquele pensamento bobo, tipo:
+                "O que será que aquele doido tá fazendo agora?"
+                E que junto disso, venham todos os momentos que vivemos.
+                Cada riso. Cada olhar. Cada coisa simples que, junto de você, sempre foi tão grande.</p>
+                
+                <div class="text-center mt-16">
+                    <p class="playfair text-2xl">Com todo meu sentimento,</p>
+                    <p class="text-3xl font-semibold text-red-600 mt-4">Cachinhos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-800 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <p class="mb-6">"O amor nunca morre de morte natural. Morre porque não sabemos como reabastecer sua fonte."</p>
+            <p class="text-gray-400"> <span id=""></span> Eu te amo...</p>
+        </div>
+    </footer>
+
+    <!-- Audio Section -->
+
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
